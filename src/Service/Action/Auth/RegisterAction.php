@@ -16,11 +16,9 @@ use CakeDC\Api\Service\Action\Action;
 use CakeDC\Users\Controller\Component\UsersAuthComponent;
 use CakeDC\Users\Controller\Traits\CustomUsersTableTrait;
 use CakeDC\Users\Controller\Traits\RegisterTrait;
-use CakeDC\Users\Exception\UserNotFoundException;
 use Cake\Core\Configure;
 use Cake\Datasource\EntityInterface;
 use Cake\Utility\Hash;
-use Cake\Validation\Validator;
 
 /**
  * Class RegisterAction
